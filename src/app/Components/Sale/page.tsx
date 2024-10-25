@@ -3,6 +3,7 @@ import "./style.css";
 export default function Sale() {
   return (
     <div className="saleContainer">
+      
       <div className="textAllSale">
         <div className="big">
           Big Summer <span className="saleText">Sale</span>
