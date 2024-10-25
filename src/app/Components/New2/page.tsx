@@ -10,7 +10,7 @@ export default function New2() {
       <div className="allBox44">
         <div className="boxSize88">
           <div className="heart">
-            <img
+            <Image
               className="imgSize1"
               src="/heart.png"
               alt="pic"
@@ -56,7 +56,7 @@ export default function New2() {
 
         <div className="boxSize88">
           <div className="heart">
-            <img
+            <Image
               className="imgSize1"
               src="/heart.png"
               alt="pic"
