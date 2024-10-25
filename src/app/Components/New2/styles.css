@@ -1,18 +1,16 @@
-.textContainer66{
+.textContainer66 {
   width: 100%;
   height: 50px;
-  padding: 50px 100px;
-
+  padding: 50px 220px;
 }
-.allBox44{
+.allBox44 {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 40px 100px;
+  padding: 40px 220px;
   gap: 10px;
-
 }
 
 .boxSize88 {
@@ -59,6 +57,18 @@
 }
 
 @media screen and (max-width: 1025px) {
+  .textContainer66{
+    padding: 50px 80px;
+    text-align: center;
+  }
+  .allBox44 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 50px;
+  }
 }
 
 @media screen and (max-width: 767px) {

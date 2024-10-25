@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "./styles.css";
 export default function New() {
   return (
@@ -14,10 +15,16 @@ export default function New() {
       <div className="allBox">
         <div className="boxSize">
           <div className="heart">
-            <img className="imgSize1" src="heart.png" alt="pic" />
+            <Image
+              className="imgSize1"
+              src="/heart.png"
+              alt="pic"
+              width={20}
+              height={20}
+            />
           </div>
           <div className="itemsAll1">
-            <img src="/1.png" alt="itemsAll" />
+            <Image src="/1.png" alt="itemsAll" width={160} height={160} />
           </div>
 
           <h5 className="fontSize">
@@ -31,10 +38,16 @@ export default function New() {
 
         <div className="boxSize">
           <div className="heart">
-            <img className="imgSize1" src="heart.png" alt="pic" />
+            <Image
+              className="imgSize1"
+              src="/heart.png"
+              alt="pic"
+              width={20}
+              height={20}
+            />
           </div>
           <div className="itemsAll1">
-            <img src="/c2.png" alt="itemsAll" />
+            <Image src="/c2.png" alt="itemsAll" width={160} height={160} />
           </div>
 
           <h5 className="fontSize">
@@ -48,10 +61,16 @@ export default function New() {
 
         <div className="boxSize">
           <div className="heart">
-            <img className="imgSize1" src="heart.png" alt="pic" />
+            <Image
+              className="imgSize1"
+              src="/heart.png"
+              alt="pic"
+              width={20}
+              height={20}
+            />
           </div>
           <div className="itemsAll1">
-            <img src="/w3.png" alt="itemsAll" />
+            <Image src="/w3.png" alt="itemsAll" width={160} height={160} />
           </div>
 
           <h5 className="fontSize">
@@ -65,10 +84,16 @@ export default function New() {
 
         <div className="boxSize">
           <div className="heart">
-            <img className="imgSize1" src="heart.png" alt="pic" />
+            <Image
+              className="imgSize1"
+              src="/heart.png"
+              alt="pic"
+              width={20}
+              height={20}
+            />
           </div>
           <div className="itemsAll1">
-            <img src="/h4.png" alt="itemsAll" />
+            <Image src="/h4.png" alt="itemsAll" width={160} height={160} />
           </div>
 
           <h5 className="fontSize">
@@ -82,10 +107,16 @@ export default function New() {
 
         <div className="boxSize">
           <div className="heart">
-            <img className="imgSize1" src="heart.png" alt="pic" />
+            <Image
+              className="imgSize1"
+              src="/heart.png"
+              alt="pic"
+              width={20}
+              height={20}
+            />
           </div>
           <div className="itemsAll1">
-            <img src="/w5.png" alt="itemsAll" />
+            <Image src="/w5.png" alt="itemsAll" width={160} height={160} />
           </div>
 
           <h5 className="fontSize">
@@ -99,10 +130,16 @@ export default function New() {
 
         <div className="boxSize">
           <div className="heart">
-            <img className="imgSize1" src="heart.png" alt="pic" />
+            <Image
+              className="imgSize1"
+              src="/heart.png"
+              alt="pic"
+              width={20}
+              height={20}
+            />
           </div>
           <div className="itemsAll1">
-            <img src="/m6.png" alt="itemsAll" />
+            <Image src="/m6.png" alt="itemsAll" width={160} height={160} />
           </div>
 
           <h5 className="fontSize">
@@ -116,10 +153,16 @@ export default function New() {
 
         <div className="boxSize">
           <div className="heart">
-            <img className="imgSize1" src="heart.png" alt="pic" />
+            <Image
+              className="imgSize1"
+              src="/heart.png"
+              alt="pic"
+              width={20}
+              height={20}
+            />
           </div>
           <div className="itemsAll1">
-            <img src="/e7.png" alt="itemsAll" />
+            <Image src="/e7.png" alt="itemsAll" width={160} height={160} />
           </div>
 
           <h5 className="fontSize">
@@ -135,10 +178,16 @@ export default function New() {
 
         <div className="boxSize">
           <div className="heart">
-            <img className="imgSize1" src="heart.png" alt="pic" />
+            <Image
+              className="imgSize1"
+              src="/heart.png"
+              alt="pic"
+              width={20}
+              height={20}
+            />
           </div>
           <div className="itemsAll1">
-            <img src="/m8.png" alt="itemsAll" />
+            <Image src="/m8.png" alt="itemsAll" width={160} height={160} />
           </div>
 
           <h5 className="fontSize">

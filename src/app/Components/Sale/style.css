@@ -39,13 +39,25 @@
   }
   .big {
     font-size: 8vw;
+    /* -webkit-text-stroke: 1px black; */
+
   }
   .saleText {
     font-size: 8vw;
+
   }
 
-  .commodo{
+  .commodo {
     font-size: 3vw;
+  }
+}
+@media screen and (max-width: 542px) {
+  .saleContainer {
+    color: black;
+  }
+  .saleButton{
+    border: 2px solid black;
 
   }
+  
 }

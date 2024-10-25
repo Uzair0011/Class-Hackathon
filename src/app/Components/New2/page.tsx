@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import "./styles.css";
 export default function New2() {
   return (
@@ -10,10 +10,16 @@ export default function New2() {
       <div className="allBox44">
         <div className="boxSize88">
           <div className="heart">
-            <img className="imgSize1" src="heart.png" alt="pic" />
+            <img
+              className="imgSize1"
+              src="/heart.png"
+              alt="pic"
+              width={20}
+              height={20}
+            />
           </div>
           <div className="itemsAll1">
-            <img src="/n1.png" alt="itemsAll" />
+            <Image src="/n1.png" alt="itemsAll" width={160} height={160} />
           </div>
 
           <h5 className="fontSize">
@@ -27,10 +33,16 @@ export default function New2() {
 
         <div className="boxSize88">
           <div className="heart">
-            <img className="imgSize1" src="heart.png" alt="pic" />
+            <Image
+              className="imgSize1"
+              src="/heart.png"
+              alt="pic"
+              width={20}
+              height={20}
+            />
           </div>
           <div className="itemsAll1">
-            <img src="/h4.png" alt="itemsAll" />
+            <Image src="/h4.png" alt="itemsAll" width={160} height={160}/>
           </div>
 
           <h5 className="fontSize">
@@ -44,10 +56,16 @@ export default function New2() {
 
         <div className="boxSize88">
           <div className="heart">
-            <img className="imgSize1" src="heart.png" alt="pic" />
+            <img
+              className="imgSize1"
+              src="/heart.png"
+              alt="pic"
+              width={20}
+              height={20}
+            />
           </div>
           <div className="itemsAll1">
-            <img src="/w3.png" alt="itemsAll" />
+            <Image src="/w3.png" alt="itemsAll" width={160} height={160} />
           </div>
 
           <h5 className="fontSize">
@@ -61,10 +79,16 @@ export default function New2() {
 
         <div className="boxSize88">
           <div className="heart">
-            <img className="imgSize1" src="heart.png" alt="pic" />
+            <Image
+              className="imgSize1"
+              src="/heart.png"
+              alt="pic"
+              width={20}
+              height={20}
+            />
           </div>
           <div className="itemsAll1">
-            <img src="/n4.png" alt="itemsAll" />
+            <Image src="/n4.png" alt="itemsAll" width={160} height={160} />
           </div>
 
           <h5 className="fontSize">
@@ -79,5 +103,3 @@ export default function New2() {
     </div>
   );
 }
-
-

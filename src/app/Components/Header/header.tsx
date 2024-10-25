@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from "next/image";
 
 import "./style.css";
 export default function Header() {
@@ -7,7 +7,7 @@ export default function Header() {
     <div className="parentContainer">
       <div className="childContainer">
         <div className="logo">
-          <img src="/logo.png" alt="logo" />
+          <Image src="/logo.png" alt="logo" width={80} height={0}/>
         </div>
 
         <div className="box">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "./style.css";
 export default function MacPage() {
   return (
@@ -5,7 +6,7 @@ export default function MacPage() {
       {/* left side */}
       <div className="one">
         <div className="img01">
-          <img className="imgg" src="/PlayStation.png" alt="playstation" />
+          <Image className="imgg" src="/PlayStation.png" alt="playstation"  width={1500} height={0}/>
         </div>
         <div className="text01">
           <h2 className="t1">Playstation 5</h2>
@@ -27,14 +28,14 @@ export default function MacPage() {
           <button className="button4">Shop Now</button>
         </div>
         <div className="img04">
-          <img className="img4" src="/MacBook.png" alt="playstation" />
+          <Image className="img4" src="/MacBook.png" alt="playstation"  width={100} height={0}/>
         </div>
       </div>
 
       <div className="second">
         <div className="two">
           <div className="img02">
-            <img className="img2" src="/airpod.png" alt="playstation" />
+            <Image className="img2" src="/airpod.png" alt="playstation"  width={100} height={0}/>
           </div>
           <div className="text033">
             <h2 className="t2">Apple AirPods Max</h2>
@@ -43,7 +44,7 @@ export default function MacPage() {
         </div>
         <div className="two2">
           <div className="img03">
-            <img className="img3" src="/vision.png" alt="playstation" />
+            <Image className="img3" src="/vision.png" alt="playstation" width={136} height={190}/>
           </div>
           <div className="text02">
             <h2 className="t2">Apple Vision Pro</h2>

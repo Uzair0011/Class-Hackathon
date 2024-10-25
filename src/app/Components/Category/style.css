@@ -7,7 +7,7 @@
 }
 
 .childContainer2 {
-  width: 1120px;
+  width: 1070px;
   height: 32px;
   display: flex;
   align-items: center;
@@ -15,10 +15,12 @@
 }
 .allArrow {
   display: flex;
+  width: 20px;
+  gap: 20px;
 }
 .arrow {
-  transform: rotate(180deg);
-  padding: 0px 30px;
+  /* transform: rotate(180deg); */
+  /* padding: 0px 2px; */
 }
 
 .container2 {
@@ -58,6 +60,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    /* padding: 0px; */
     /* margin-bottom: 20px; */
   }
 }
