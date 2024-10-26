@@ -11,7 +11,7 @@ export default function New2() {
         <div className="boxSize88">
           <div className="heart">
             <Image
-              className="imgSize1"
+              // className="imgSize1"
               src="/heart.png"
               alt="pic"
               width={20}
@@ -34,7 +34,7 @@ export default function New2() {
         <div className="boxSize88">
           <div className="heart">
             <Image
-              className="imgSize1"
+              // className="imgSize1"
               src="/heart.png"
               alt="pic"
               width={20}
@@ -42,7 +42,7 @@ export default function New2() {
             />
           </div>
           <div className="itemsAll1">
-            <Image src="/h4.png" alt="itemsAll" width={160} height={160}/>
+            <Image src="/h4.png" alt="itemsAll" width={160} height={160} />
           </div>
 
           <h5 className="fontSize">
@@ -57,7 +57,7 @@ export default function New2() {
         <div className="boxSize88">
           <div className="heart">
             <Image
-              className="imgSize1"
+              // className="imgSize1"
               src="/heart.png"
               alt="pic"
               width={20}
@@ -80,7 +80,7 @@ export default function New2() {
         <div className="boxSize88">
           <div className="heart">
             <Image
-              className="imgSize1"
+              // className="imgSize1"
               src="/heart.png"
               alt="pic"
               width={20}

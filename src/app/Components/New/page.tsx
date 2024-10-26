@@ -16,7 +16,7 @@ export default function New() {
         <div className="boxSize">
           <div className="heart">
             <Image
-              className="imgSize1"
+              // className="imgSize1"
               src="/heart.png"
               alt="pic"
               width={20}
@@ -39,7 +39,7 @@ export default function New() {
         <div className="boxSize">
           <div className="heart">
             <Image
-              className="imgSize1"
+              // className="imgSize1"
               src="/heart.png"
               alt="pic"
               width={20}
@@ -62,7 +62,7 @@ export default function New() {
         <div className="boxSize">
           <div className="heart">
             <Image
-              className="imgSize1"
+              // className="imgSize1"
               src="/heart.png"
               alt="pic"
               width={20}
@@ -85,7 +85,7 @@ export default function New() {
         <div className="boxSize">
           <div className="heart">
             <Image
-              className="imgSize1"
+              // className="imgSize1"
               src="/heart.png"
               alt="pic"
               width={20}
@@ -108,7 +108,7 @@ export default function New() {
         <div className="boxSize">
           <div className="heart">
             <Image
-              className="imgSize1"
+              // className="imgSize1"
               src="/heart.png"
               alt="pic"
               width={20}
@@ -131,7 +131,7 @@ export default function New() {
         <div className="boxSize">
           <div className="heart">
             <Image
-              className="imgSize1"
+              // className="imgSize1"
               src="/heart.png"
               alt="pic"
               width={20}
@@ -154,7 +154,7 @@ export default function New() {
         <div className="boxSize">
           <div className="heart">
             <Image
-              className="imgSize1"
+              // className="imgSize1"
               src="/heart.png"
               alt="pic"
               width={20}
@@ -179,7 +179,7 @@ export default function New() {
         <div className="boxSize">
           <div className="heart">
             <Image
-              className="imgSize1"
+              // className="imgSize1"
               src="/heart.png"
               alt="pic"
               width={20}
