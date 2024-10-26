@@ -1,0 +1,61 @@
+.saleContainer {
+  background-image: url("/last.png");
+  background-size: cover; /* Makes the image cover the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%;
+  height: 448px;
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textAllSale {
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  align-content: center;
+  color: white;
+}
+
+.big {
+  font-size: 72px;
+  font-weight: 100;
+}
+.saleText {
+  font-size: 72px;
+  font-weight: 500;
+}
+.commodo {
+  font-size: 16px;
+}
+.saleButton {
+  width: 191px;
+  height: 56px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1025px) {
+  .saleContainer {
+    width: 100%;
+  }
+  .big {
+    font-size: 8vw;
+    /* -webkit-text-stroke: 1px black; */
+  }
+  .saleText {
+    font-size: 8vw;
+  }
+
+  .commodo {
+    font-size: 3vw;
+  }
+}
+@media screen and (max-width: 542px) {
+  .saleContainer {
+    width: 100%;
+    /* height: 80%; */
+  }
+}

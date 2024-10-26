@@ -1,0 +1,119 @@
+.ParentContainer3 {
+  width: 100%;
+  height: 1056px;
+  justify-items: center;
+}
+
+.childContainer3 {
+  width: 1120px;
+  height: 32px;
+  display: flex;
+  gap: 50px;
+  position: relative;
+  top: 80px;
+}
+.allBox {
+  width: 1120px;
+  height: 880px;
+  position: relative;
+  top: 120px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.boxSize {
+  width: 268px;
+  height: 432px;
+  background-color: #f6f6f6;
+  justify-items: center;
+  text-align: center;
+  padding: 24px;
+}
+.heart {
+  width: 236px;
+  height: 32px;
+  /* background-color: blueviolet; */
+  /* opacity: 10%; */
+  display: flex;
+  justify-content: end;
+}
+/* .imgSize1 {
+  width: 20px;
+  height: 20px;
+} */
+.buy {
+  width: 188px;
+  height: 48px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.buttonPadding {
+  padding-top: 15px;
+}
+.fontSize {
+  font-size: 16px;
+  padding-top: 17px;
+}
+.downGalaxy {
+  width: 100px;
+}
+.rate {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.itemsAll1 {
+  width: 160px;
+  height: 160px;
+}
+
+@media screen and (max-width: 1025px) {
+
+
+  .childContainer3{
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+  }
+
+  .allBox {
+    width: 90%;
+    height: auto;
+    gap: 20px;
+    margin-bottom: 200px;
+
+   
+  }
+
+  .ParentContainer3 {
+    width: 90%;
+    height: auto;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ParentContainer3{
+    width: 100%;
+    height: auto;
+  }
+
+  .childContainer3{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  
+  }
+
+  .allBox {
+    justify-content: center;
+    
+
+   
+  }
+}
