@@ -6,6 +6,7 @@
 
 .childContainer3 {
   width: 1120px;
+  /* width: 100%; */
   height: 32px;
   display: flex;
   gap: 50px;
@@ -13,7 +14,8 @@
   top: 80px;
 }
 .allBox {
-  width: 1120px;
+  /* width: 1120px; */
+  width: 100%;
   height: 880px;
   position: relative;
   top: 120px;
@@ -24,7 +26,7 @@
 }
 
 .boxSize {
-  width: 268px;
+  width: 258px;
   height: 432px;
   background-color: #f6f6f6;
   justify-items: center;
@@ -71,9 +73,7 @@
 }
 
 @media screen and (max-width: 1025px) {
-
-
-  .childContainer3{
+  .childContainer3 {
     width: 100%;
     height: auto;
     padding: 0px 20px;
@@ -84,36 +84,29 @@
     height: auto;
     gap: 20px;
     margin-bottom: 200px;
-
-   
   }
 
   .ParentContainer3 {
     width: 90%;
     height: auto;
-
   }
 }
 
 @media screen and (max-width: 767px) {
-  .ParentContainer3{
+  .ParentContainer3 {
     width: 100%;
     height: auto;
   }
 
-  .childContainer3{
+  .childContainer3 {
     width: 100%;
     height: auto;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-  
   }
 
   .allBox {
     justify-content: center;
-    
-
-   
   }
 }

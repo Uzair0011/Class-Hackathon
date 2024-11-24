@@ -11,7 +11,8 @@
 }
 
 .footerChild {
-  width: 1120px;
+  /* width: 1120px; */
+  width: 100%;
   height: 256px;
   display: flex;
   justify-content: space-between;
@@ -19,6 +20,8 @@
   flex-wrap: wrap;
 }
 .format1 {
+  padding-left: 25px;
+
   width: 400px;
   height: 256px;
 }
@@ -115,8 +118,6 @@ li {
     width: 100%;
     height: 200px;
     padding-top: 50px;
-   
-  
   }
 
   .fourlogo {
