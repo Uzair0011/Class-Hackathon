@@ -1,4 +1,5 @@
 .footerBack {
+  overflow: hidden;
   background-color: black;
   color: white;
 }
